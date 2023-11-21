@@ -21,6 +21,7 @@ import pomrepository.Homepage;
 	
 		@Test (groups="Smoke")
 		public void addToCart () throws InterruptedException, IOException {
+			//New changes
 			
 			Homepage hp = new Homepage(driver);
 			hp.getDigitalDownloadsLink().click();
